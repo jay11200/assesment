@@ -1,0 +1,773 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-banner .header-main{
+    background-color: #1f272b;
+}
+.main-banner .cointainer-header{
+    display: flex;
+    width: 100%;
+    padding: 0px 60px;
+    position: relative;
+}
+.main-banner .cointainer-header .left-start{
+    padding: 0 10px;
+    width: 70%;
+    text-align: start;
+}
+.main-banner .cointainer-header .left-start p{
+    padding: 15px 0px;
+    color: #fff;
+}
+.main-banner  .cointainer-header .left-start em{
+    font-style: normal;
+    color: #f5a425;
+}
+.main-banner  .cointainer-header .right-end{
+    width: 30%;
+    padding: 15px 0px;
+    text-align: end;
+}
+.main-banner  .cointainer-header .right-end a{
+    color: #fff;
+    padding: 9px;
+}
+.main-banner .mainheader{
+    width: 100%;
+    margin: 0 auto;
+}
+.main-banner .mainheader .cointainer-header{
+    padding: 20px 30px;
+    background-color: rgba(255,255,255,0.14);
+}
+.main-banner .mainheader .cointainer-header .header-content{
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0% auto;
+}
+.main-banner  .mainheader .cointainer-header .header-content a{
+    text-decoration: none;
+    color: #eee;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline;
+}
+.main-banner .mainheader .cointainer-header .header-content ul{
+    display: flex;
+    float: right;
+    padding-left: 300px;
+}
+.main-banner  .mainheader .cointainer-header .header-content li{
+    padding-left: 7px;
+    padding-right: 7px;
+    list-style: none;
+    transition: all 2S linear;
+}
+.main-banner .mainheader .cointainer-header .header-content ul li a{
+    color: #eee;
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 2s linear;
+}
+.main-banner .mainheader .cointainer-header .header-content ul li:hover{
+    transform: scale(1.2);
+}
+.main-banner .mainheader .cointainer-header .header-content ul li a:hover{
+    color: #f5a425;
+}
+.main-banner{
+    width: 100%;
+    padding-bottom: 5%;
+}
+.main-banner video{
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+}
+.main-banner .banner-caption{
+    width: 60%;
+    margin-left: 80px;
+    padding: 80px 60px;
+}
+.main-banner .banner-caption h6{
+    color: #fff;
+    font-size: 25px;
+}
+.main-banner .banner-caption h2{
+    color: #fff;
+    font-size: 50px;
+    margin: 15px 0px;
+}
+.main-banner .banner-caption a{
+    color: #3CF;
+    text-decoration: none;
+}
+.main-banner .banner-caption p{
+    color: whitesmoke;
+    font-size: 15px;
+}
+.main-banner .banner-caption .join-button{
+    margin-top: 40px;
+}
+.main-banner .banner-caption .join-button a{
+    font-size: 15px;
+    font-family: open sans,Sans-serif;
+    background-color: #a12c2f;
+    color: #fff;
+    padding: 15px 22px;
+    text-decoration: none;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+.services{
+    position: absolute;
+    margin-top: -47px;
+}
+.services .cointainer-services{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+.services .cointainer-services .box{
+    width: 30%;
+    background-color: #a12c2f;
+    border-radius: 20px;
+    text-align: center;
+}
+.services .cointainer-services .box img{
+    width: 68px;
+    margin: 30px;
+}
+.services .cointainer-services .box h4{
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.services .cointainer-services .box p{
+    color: #fff;
+    padding: 0px 10px;
+}
+.Meetings{
+    background: url(https://themewagon.github.io/edu-meeting/assets/images/meetings-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 170px;
+    padding-bottom: 140px;
+}
+.Meetings .meetings-cointainer{
+    padding: 0px 30px;
+    margin: 0px auto;
+    display: flex;
+    width: 100%;
+}
+.Meetings .meeting-header{
+    width: 100%;
+    text-align: center;
+    margin: 0% auto;
+    display: block;
+    color: #fff;
+    letter-spacing: 2px;
+    
+}
+.Meetings .meeting-header h2{
+    padding-top: 40px;
+    width: 750px;
+    padding-bottom: 20px;
+    border-bottom: #eee 1px solid ;
+    margin: 0% auto;
+}
+.meetings-cointainer .meetings-catagories{
+    margin-right: 40px;
+    padding-right: 20px;
+    width: 43%;
+    height: 460px;
+    margin-top: 72px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.meetings-cointainer .meetings-catagories .meeting-details{
+    margin-right: 10px;
+    margin: 0px auto;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.meetings-cointainer .meetings-catagories .meeting-details h4{
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    color: #1f272b;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    border-bottom: #1f272b 2px solid;
+}
+.meetings-cointainer .meetings-catagories .meeting-details li{
+    margin-bottom: 30px;
+    display: inline-block;
+    list-style: none;
+}
+.meetings-cointainer .meetings-catagories .meeting-details a{
+    font-size: 18px;
+    color: #1f272b;
+    font-weight: 200;
+    text-decoration: none;
+}
+.meetings-cointainer .button-meetings{
+    width: 70%;
+    padding-top: 40px;
+    margin-top: 8px;
+    border-top: 2px solid #eee;
+    text-align: center;
+    margin: 0px auto;
+}
+.meetings-cointainer .button-meetings a{
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: #a12c2f;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.meetings-cointainer .meeting-row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.meetings-cointainer .meeting-row .meeting-col1{
+    width: 50%;
+    padding: 0px 12px;
+    margin-top: 78px;
+}
+.meetings-cointainer .meeting-row .meeting-col1 .meeting-item{
+    margin-bottom: 20px;
+}
+.meetings-cointainer .meeting-row .meeting-item .thumb{
+    position: relative;
+    width: 100%;
+}
+.meetings-cointainer .meeting-row  .meeting-item .thumb .price{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.meetings-cointainer .meeting-row .meeting-item .thumb .price span{
+    font-size: 16px;
+    color: rgb(31, 39, 43);
+    font-weight: 600;
+    background-color: rgba(250, 250, 250, 0.9);
+    padding: 7px 12px;
+    border-radius: 10px;
+}
+.meetings-cointainer .meeting-row .meeting-item .thumb a{ 
+    text-decoration: none;
+    display: flex;
+}
+.meetings-cointainer .meeting-row .meeting-item .thumb img{ 
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 100%;
+}
+.meetings-cointainer .meeting-item .down-content{
+    background-color: rgb(255, 255, 255);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 28px;
+    width: 100%;
+}
+.meetings-cointainer .meeting-item .down-content .date{
+    text-align: center;
+    float: left;
+    margin-right: 20px;
+}
+.meetings-cointainer .meeting-item .down-content .date h6{
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(161, 44, 47);
+}
+.meetings-cointainer .meeting-item .down-content .date span{
+    display: block;
+    color: rgb(31, 39, 43);
+    font-size: 22px;
+    margin-top: 7px;
+}
+.meetings-cointainer .meeting-item .down-content a{
+    text-decoration: none;
+}
+.meetings-cointainer .meeting-item .down-content h4{
+    font-size: 18px;
+    color: rgb(31, 39, 43);
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.meetings-cointainer .meeting-item .down-content p{
+    margin-left: 50px;
+    color: rgb(31, 39, 43);
+    font-size: 14px;
+}
+.meetings-cointainer .meeting-row .meeting-col2{
+    width: 50%;
+    padding: 0px 12px;
+    margin-top: 78px;
+}
+.meetings-cointainer .meeting-row .meeting-col3{
+    width: 50%;
+    padding: 0px 12px;
+}
+.meetings-cointainer .meeting-row .meeting-col4{
+    width: 50%;
+    padding: 0px 12px;
+}
+.apply-now{
+    background-image: url(https://themewagon.github.io/edu-meeting/assets/images/apply-bg.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 140px 0px;
+}
+.apply-now .container-apply{
+    width: 100%;
+    padding: 10px;
+}
+.apply-now .container-apply .row1{
+    width: 80%;
+    margin: 0% auto;
+    display: flex;
+}
+.apply-now .container-apply .row1 .col-left{
+    align-self: center
+}
+.apply-now .container-apply .row1 .col-left .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.apply-now .container-apply .row1 .col-left .row .col-lefttop{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 50px;
+}
+.apply-now .container-apply .row1 .col-left .row .col-lefttop .item{
+    background-color: rgba(250,250,250,0.15);
+    padding: 40px;
+    margin-bottom: 30px;
+}
+.apply-now .container-apply .row1 .col-left .row .col-lefttop .item h3{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.apply-now .container-apply .row1 .col-left .row .col-lefttop .item p{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.apply-now .container-apply .row1 .col-left .row .col-lefttop .item .main-button-red a{
+    font-size: 13px;
+    color: #fff;
+    background-color: #a12c2f;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.apply-now .container-apply .row1 .col-left .row .col-leftbottom{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 50px;
+}
+.apply-now .container-apply .row1 .col-left .row .col-leftbottom .item{
+    background-color: rgba(250,250,250,0.15);
+    padding: 40px;
+    margin-bottom: 30px;
+}
+.apply-now .container-apply .row1 .col-left .row .col-leftbottom .item h3{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.apply-now .container-apply .row1 .col-left .row .col-leftbottom .item p{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.apply-now .container-apply .row1 .col-left .row .col-leftbottom .item .main-button-yellow a{
+    font-size: 13px;
+    color: #fff;
+    background-color: #f5a425;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.col-right .content-hold{
+    border-radius: 20px;
+    padding: 40px;
+    background-color: #fff;
+}
+.col-right .content-hold .content{
+    border-bottom: 3px solid #eee
+}
+.col-right .content-hold .content-start .content-head{
+    color: #f5a425;
+    font-size: 18px;
+    font-weight: 700;
+}
+.col-right .content-hold .content .content-head{
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.col-right .content-hold .content-last .content-head{
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1f272b;
+}
+.col-right .content-hold .content .content-head .content-body{
+    height: 95px;
+    border-bottom: 1px solid #fff;
+}
+.col-right .content-hold .content .content-head .content-body .main-content{
+    padding: 20px;
+    padding-top: 0;
+}
+.col-right .content-hold .content-start .content-body .main-content a{
+    text-decoration: none;
+    color:  #3CF;
+}
+.container-apply .row1 .col-right{
+    width: 100%;
+    height: 500px;
+}
+.courses{
+    background-image: url(https://themewagon.github.io/edu-meeting/assets/images/meetings-bg.jpg);
+    background-position: center center;
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 140px;
+    padding-bottom: 130px;
+}
+.courses .cointainer-courses{
+    width: 100%;
+    padding: 0px;
+}
+.courses .cointainer-courses .row1-course{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.courses .cointainer-courses .row1-course .col-top{
+    border-bottom: 1px solid rgba(250,250,250,0.15);
+    width: 100%;
+}
+.courses .cointainer-courses .row1-course .col-top h2{
+    line-height: 40px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+.courses .cointainer-courses .row1-course .col-bottom{
+    width: 100%;
+    display: flex;
+    margin-top: 45px;
+    justify-content: space-between;
+}
+.courses .cointainer-courses .row1-course .col-bottom .box1-course{
+    width: 240px;
+}
+.courses .cointainer-courses .row1-course .col-bottom .box1-course .upcontent-course{
+    width: 100%;
+}
+.courses .cointainer-courses .row1-course .col-bottom .box1-course .upcontent-course img{
+    width: 100%;
+}
+.courses .cointainer-courses .row1-course .col-bottom .box1-course .downcontent-course{
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    color: #1f272b;
+    padding: 20px;
+}
+.courses .cointainer-courses .row1-course .col-bottom .box1-course .downcontent-course h2{
+    padding-bottom: 20px;
+    border-bottom: 2px solid #eee;
+}
+.courses .cointainer-courses .row1-course .col-bottom .box1-course .downcontent-course .ratings-course{
+    display: flex;
+    padding-top: 40px;
+}
+.courses .cointainer-courses .row1-course .col-bottom .box1-course .downcontent-course .ratings-course ul{
+    display: flex;
+}
+.courses .cointainer-courses .row1-course .col-bottom .box1-course .downcontent-course .ratings-course span{
+    padding-left: 70px;
+}
+.courses .cointainer-courses .row1-course .col-bottom .box1-course .downcontent-course .ratings-course li{
+    list-style: none;
+    color: #f5a425;
+}
+.about-university{
+    background-image: url(https://themewagon.github.io/edu-meeting/assets/images/facts-bg.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 140px 0px;
+}
+.about-university .cointainer-about{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+.about-university .cointainer-about .row-about{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.about-university .cointainer-about .row-about .colabout-left{
+    width: 45%;
+}
+.about-university .cointainer-about .row-about .colabout-left h2{
+    font-size: 32px;
+    color: #eee;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+.about-university .cointainer-about .row-about .colaboutright{
+    width: 45%;
+    padding: 0px 10px;
+}
+.about-university .cointainer-about .row-about .colaboutright{
+    margin: 50px 0px;
+    background: url(https://themewagon.github.io/edu-meeting/assets/images/video-item-bg.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    text-align: center;
+    width: 45%;
+}
+.about-university .cointainer-about .row-about .colaboutright img{
+    text-decoration: none;
+    color: #eee;
+    padding: 170px 0px;
+}
+.about-university .cointainer-about .row-about .boxes-leftabout{
+    display: flex;
+}
+.about-university .cointainer-about .row-about .colabout-left .boxes-leftabout .colleft-boxes{
+    padding-left: 20px;
+    width: 50%;
+}
+.about-university .cointainer-about .row-about .colabout-left .boxes-leftabout .colright-boxes{
+    padding: 30px 0px 0px 20px;
+    width: 50%;
+}
+.about-university .cointainer-about .row-about .colabout-left .boxes-leftabout .colleft-boxes .box{
+    text-align: center;
+    background-color: rgba(250,250,250,0.15);
+    border-radius: 20px;
+    padding: 25px 20px 35px 20px;
+    margin: 15px 0px;
+}
+.about-university .cointainer-about .row-about .colabout-left .boxes-leftabout .colleft-boxes .box h1{
+    margin: 5px 0px;
+    color: #f5a425;
+    font-weight: 700;
+    font-size: 42px;
+}
+.about-university .cointainer-about .row-about .colabout-left .boxes-leftabout .colright-boxes .box h1{
+    margin: 5px 0px;
+    color: #f5a425;
+    font-weight: 700;
+    font-size: 42px;
+}
+.about-university .cointainer-about .row-about .colabout-left .boxes-leftabout .colleft-boxes .box h4{
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 0.5px;
+}
+.about-university .cointainer-about .row-about .colabout-left .boxes-leftabout .colright-boxes .box h4{
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 0.5px;
+}
+.about-university .cointainer-about .row-about .colabout-left .boxes-leftabout .colright-boxes .box{
+    text-align: center;
+    background-color: rgba(250,250,250,0.15);
+    border-radius: 20px;
+    padding: 25px 25px 35px 25px;
+    margin: 20px 0px;
+}
+.footer{
+    background-image: url(https://themewagon.github.io/edu-meeting/assets/images/meetings-bg.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 140px 0px 0px 0px;
+}
+.footer .footer-cointainer{
+    width: 100%;
+    padding: 30px 12px;
+}
+.footer .footer-cointainer .footer-row{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0px 50px;
+    margin: 0px 10px;
+}
+.footer .footer-cointainer .footer-row .footer-left{
+    border-radius: 18px;
+    width: 60%;
+    height: 66%;
+    margin: 10px 0px;
+    padding: 20px 0px;
+    background-color: #fff;
+}
+.footer .footer-cointainer .footer-row .footer-left .input-h2{
+    width: 100%;
+    margin: 20px 50px 10px 60px;
+}
+.footer .footer-cointainer .footer-row .footer-left .input-h2 h2{
+    text-transform: uppercase;
+    color: #1f272b;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    font-size: 22px;
+    font-weight: 700;
+    width: 60%;
+}
+.footer .footer-cointainer .footer-row .footer-left .input{
+    width: 83%;
+    margin: 20px 50px 10px 60px;
+}
+.footer .footer-cointainer .footer-row .footer-left .input input{
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #f7f7f7;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    font-size: 13px;
+    font-weight: 500;
+    color: #7a7a7a;
+    padding: 0px 15px;
+    margin-bottom: 30px;
+}
+.footer .footer-cointainer .footer-row .footer-left .input-textarea{
+    width: 80%;
+    margin-left: 60px;
+}
+.footer .footer-cointainer .footer-row .footer-left .input-textarea textarea{
+    width: 100%;
+    min-height: 140px;
+    max-height: 180px;
+    border-radius: 20px;
+    background-color: #f7f7f7;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    font-size: 13px;
+    font-weight: 500;
+    color: #7a7a7a;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+.footer .footer-cointainer .footer-row .footer-left .button-submit{
+    width: 80%;
+    margin-left: 60px;
+}
+.footer .footer-cointainer .footer-row .footer-left .button-submit button{
+    font-size: 13px;
+    color: #fff;
+    background-color: #a12c2f;
+    padding: 12px 30px;
+    border-radius: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.footer .footer-cointainer .footer-row .footer-right{
+    width: 30%;
+}
+.footer .footer-cointainer .footer-row .footer-right .right-info{
+    background-color: #a12c2f;
+    border-radius: 20px;
+    padding: 40px;
+    height: inherit;
+    width: 100%;
+}
+.footer .footer-cointainer .footer-row .footer-right .right-info ul{
+    list-style: none;
+    padding: 30px 0px;
+}
+.footer .footer-cointainer .footer-row .footer-right .right-info ul li{
+    border-bottom: 1px solid rgba(250,250,250,0.15);
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+.footer .footer-cointainer .footer-row .footer-right .right-info ul li h6{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.footer .footer-cointainer .footer-row .footer-right .right-info ul li span{
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 800;
+}
+.footer .end-game{
+    text-align: center;
+    margin-top: 140px;
+    border-top: 1px solid rgba(250,250,250,0.15);
+    padding: 50px 0px;
+}
+.footer .end-game p{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+}
+.footer .end-game a{
+    color: #f5a425;
+    text-decoration: none;
+}
